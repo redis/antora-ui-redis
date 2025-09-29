@@ -138,12 +138,12 @@ mark {
 
 /* Apply first header style directly since our breadcrumbs break :first-child */
 
-.doc > h1#page-title {
+.doc > h1.page {
   font-size: calc(42 / var(--rem-base) * 1rem);
   margin: 0.8rem 0 0.2rem 0;
 }
 
-.doc > h1#page-title + aside.toc.embedded {
+.doc > h1.page + aside.toc.embedded {
   margin-top: -0.5rem;
 }
 
