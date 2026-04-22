@@ -10,6 +10,8 @@ site:
   homeUrl: /index.html
   keys:
     github: https://github.com/spring-io/antora-ui-spring
+    favicon: /custom-favicon.png
+    faviconType: image/png
   components:
   - name: foobar
     title: &component_title Spring Foobar

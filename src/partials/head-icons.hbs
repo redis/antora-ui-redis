@@ -1,1 +1,1 @@
-    <link rel="icon" href="{{{uiRootPath}}}/img/favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="icon" href="{{#with site.keys.favicon}}{{{this}}}{{else}}{{{uiRootPath}}}/img/favicon.ico{{/with}}" type="{{or site.keys.faviconType 'image/vnd.microsoft.icon'}}">

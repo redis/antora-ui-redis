@@ -78,6 +78,17 @@ The UI bundle will again be available at `build/ui-bundle.zip`.
 
 ## Extensions to the UI
 
+### Favicon
+
+The UI uses `img/favicon.ico` by default. To override it for a specific docs site, set `site.keys.favicon` in the Antora playbook to the icon URL you want rendered in the page head. You can optionally set `site.keys.faviconType` to control the MIME type.
+
+```
+site:
+  keys:
+    favicon: /img/korvet-favicon.png
+    faviconType: image/png
+```
+
 ### Related Documentation
 
 The UI presents a list of related documentation and that documentation can be filtered using two attributes:
